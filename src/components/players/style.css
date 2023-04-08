@@ -1,0 +1,13 @@
+.head {
+    width: 50px;
+    height: 50px;
+}
+
+.nickname {
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px;
+    zIndex: 1;
+}
