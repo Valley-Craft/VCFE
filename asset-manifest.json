@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/VCFE/static/css/main.fd53f959.css",
+    "main.js": "/VCFE/static/js/main.2ed41208.js",
+    "static/js/787.ea08be66.chunk.js": "/VCFE/static/js/787.ea08be66.chunk.js",
+    "static/media/img2.png": "/VCFE/static/media/img2.3bbcae938a0146966b45.png",
+    "static/media/img3.png": "/VCFE/static/media/img3.b2c2fb6263cd4d10634c.png",
+    "static/media/img1.png": "/VCFE/static/media/img1.553494d4860066d26e5d.png",
+    "static/media/body.png": "/VCFE/static/media/body.53ec18033eac30a360ee.png",
+    "static/media/header-bg.png": "/VCFE/static/media/header-bg.5bf82a058f892ab7f237.png",
+    "static/media/sun.svg": "/VCFE/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
+    "static/media/moon.svg": "/VCFE/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
+    "static/media/discord.svg": "/VCFE/static/media/discord.ee7cab2b6b96f6ca4a264c64615402c9.svg",
+    "index.html": "/VCFE/index.html",
+    "main.fd53f959.css.map": "/VCFE/static/css/main.fd53f959.css.map",
+    "main.2ed41208.js.map": "/VCFE/static/js/main.2ed41208.js.map",
+    "787.ea08be66.chunk.js.map": "/VCFE/static/js/787.ea08be66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd53f959.css",
+    "static/js/main.2ed41208.js"
+  ]
+}
