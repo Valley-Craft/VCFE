@@ -30,12 +30,12 @@ const Navbar = () => {
 
 						<li className="nav-list__item">
 							<NavLink
-								to="/shop"
+								to="/form"
 								className={({ isActive }) =>
 									isActive ? activeLink : normalLink
 								}
 							>
-								Магазин
+								Анкета
 							</NavLink>
 						</li>
 
