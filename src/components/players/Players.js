@@ -16,12 +16,9 @@ const Players = () => {
     };
 
     useEffect(() => {
-        const apiUrl = 'http://137.74.7.233:4567/v1/players';
-        const apiKey = '8i8XtPNtLb24S87TkG82Sdktx4m5a8AZ';
+        const apiUrl = 'http://api.valleycraft.fun/api/v1/players';
         axios
-            .get(apiUrl, { headers: {
-                    key: apiKey
-                }})
+            .get(apiUrl)
             .then((response) => setPlayers(response.data))
             .catch((error) => console.log(error));
     }, []);
