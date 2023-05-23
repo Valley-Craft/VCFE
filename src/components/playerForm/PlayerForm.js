@@ -51,36 +51,36 @@ const PlayerForm = () => {
                 <div style={{position: 'relative'}}>
                     <label>
                         <input type="text" className="input_main" value={inputNick} onChange={handleNickChange}
-                               placeholder="Введите никнейм" required/>
+                               placeholder="Нікнейм" required/>
                     </label>
                 </div>
                 <div style={{marginTop: '40px', position: 'relative'}}>
                     <label>
                         <input type="text" className="input_main" value={inputName} onChange={handleNameChange}
-                               placeholder="Введите ваше имя" required/>
+                               placeholder="Ім'я" required/>
                     </label>
                 </div>
                 <div style={{marginTop: '40px', position: 'relative'}}>
                     <label>
                         <input type="number" className="input_main" value={inputAge} onChange={handleAgeChange}
-                               placeholder="Введите ваш возраст" required/>
+                               placeholder="Ваш вік" required/>
                     </label>
                 </div>
                 <div style={{marginTop: '40px', position: 'relative'}}>
                     <label>
                         <input type="text" className="input_main" value={inputWWD} onChange={handleWWDChange}
-                               placeholder="Чем хотите заниматься на сервере?" required/>
+                               placeholder="Чим хочете займатися на сервері?" required/>
                     </label>
                 </div>
                 <div style={{marginTop: '40px', position: 'relative'}}>
                     <label>
                         <input type="text" className="input_main" value={inputRules} onChange={handleRulesChange}
-                               placeholder="Прочитали ли вы правила?" required/>
+                               placeholder="Чи прочитали ви правила?" required/>
                     </label>
                 </div>
                 <div>
                     <a onClick={sendForm} id="pay-button" className="button_pay" href="#">
-                        Отправить
+                        Відправити
                     </a>
                 </div>
             </div>

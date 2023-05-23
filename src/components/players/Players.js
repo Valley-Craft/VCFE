@@ -31,7 +31,7 @@ const Players = () => {
         <li className="content-list__item">
             <div className="online__players">
                 <div>
-                    <h1 className="title-2">Игроки онлайн</h1>
+                    <h1 className="title-2">Онлайн гравці</h1>
                     {players.map((player) => (
                         <div style={{display: 'inline-block', marginLeft: '30px'}}>
                             <img src={`https://mineskin.eu/avatar/${player.displayName}`} alt="skin" className="head" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>

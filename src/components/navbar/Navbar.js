@@ -24,7 +24,7 @@ const Navbar = () => {
 									isActive ? activeLink : normalLink
 								}
 							>
-								Главная
+								Головна
 							</NavLink>
 						</li>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
 									isActive ? activeLink : normalLink
 								}
 							>
-								Карта
+								Мапа
 							</NavLink>
 						</li>
 						<li className="nav-list__item">
@@ -56,7 +56,7 @@ const Navbar = () => {
 									isActive ? activeLink : normalLink
 								}
 							>
-								Контакты
+								Контакти
 							</NavLink>
 						</li>
 					</ul>

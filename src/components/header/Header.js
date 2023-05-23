@@ -8,13 +8,13 @@ const Header = () => {
 					<strong>
 						<em>Valley Craft</em>
 					</strong>
-					<br />Ванильный сервер Minecraft
+					<br />Ванільний сервер Minecraft
 				</h1>
 				<div className="header__text">
-					<p>Без приватов. Без грифов. Без доната</p>
+					<p>Без приватів. Без грифу. Без доната</p>
 				</div>
 				<a href="https://discord.gg/KzuBT5vN4B" className="btn">
-					Играть
+					Грати
 				</a>
 			</div>
 		</header>

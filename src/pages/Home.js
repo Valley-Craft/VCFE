@@ -13,15 +13,15 @@ const Home = () => {
 					<ul className="content-list">
 						<Players/>
 						<li className="content-list__item">
-							<h2 className="title-2">О сервере</h2>
+							<h2 className="title-2">Про сервер</h2>
 							<p>
-								Без имба доната.<br/>
-								Без приватов.<br/>
-								С хорошим настроением.
+								Без донату.<br/>
+								Без приватів.<br/>
+								З гарним настроєм.
 							</p>
 						</li>
 						<li className="content-list__item">
-							<h2 className="title-2">Немного скриншотов</h2>
+							<h2 className="title-2">Трішки скріншотів</h2>
 							<img src={img1} alt="screenshot" className="screenshot" />
 							<img src={img2} alt="screenshot" className="screenshot" />
 							<img src={img3} alt="screenshot" className="screenshot" />

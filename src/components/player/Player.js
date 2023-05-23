@@ -8,7 +8,7 @@ const Player = ({active, setActive, player}) => {
             <div className="modal__content" onClick={e => e.stopPropagation()}>
                 <img src={`https://mineskin.eu/avatar/${player.displayName}`} alt="skin" className="head"/>
                 <h1>{player.displayName}</h1>
-                <h1>{player.op ? "Админ" : "Игрок"}</h1>
+                <h1>{player.op ? "Адмін" : "Гравець"}</h1>
             </div>
         </div>
     );
