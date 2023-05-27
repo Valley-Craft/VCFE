@@ -6,6 +6,10 @@ const Navbar = () => {
 	const activeLink = 'nav-list__link nav-list__link--active';
 	const normalLink = 'nav-list__link';
 
+	const handleClick = () => {
+		window.location.replace('http://map.valleycraft.fun/');
+	};
+
 	return (
 		<nav className="nav">
 			<div className="container">
@@ -40,13 +44,24 @@ const Navbar = () => {
 						</li>
 
 						<li className="nav-list__item">
+							<button onClick={handleClick}>Мапа</button>
+							{/*<NavLink*/}
+							{/*	to="/map"*/}
+							{/*	className={({ isActive }) =>*/}
+							{/*		isActive ? activeLink : normalLink*/}
+							{/*	}*/}
+							{/*>*/}
+							{/*	Мапа*/}
+							{/*</NavLink>*/}
+						</li>
+						<li className="nav-list__item">
 							<NavLink
-								to="/map"
+								to="/rules"
 								className={({ isActive }) =>
 									isActive ? activeLink : normalLink
 								}
 							>
-								Мапа
+								Правила
 							</NavLink>
 						</li>
 						<li className="nav-list__item">

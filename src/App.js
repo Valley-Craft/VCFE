@@ -1,6 +1,6 @@
 import "./styles/main.css";
 
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar"
 import Footer from "./components/footer/Footer";
@@ -10,6 +10,7 @@ import Contacts from "./pages/Contacts";
 import ScrollToTop from "./utils/scrollToTop"
 import Map from "./components/map/Map";
 import Form from "./pages/Form";
+import Rules from "./pages/Rules";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/form" element={<Form />} />
-					<Route path="/map" element={<Map />} />
+					<Route path="/map" element={<Navigate to="http://map.valleycraft.fun/" />} />
+					<Route path="/rules" element={<Rules />} />
 					<Route path="/contacts" element={<Contacts />} />
 				</Routes>
 				<Footer />
