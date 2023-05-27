@@ -1,4 +1,5 @@
 import "./style.css";
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -13,9 +14,9 @@ const Header = () => {
 				<div className="header__text">
 					<p>Без приватів. Без грифу. Без доната</p>
 				</div>
-				<a href="https://discord.gg/KzuBT5vN4B" className="btn">
+				<NavLink to="/form" className="btn">
 					Грати
-				</a>
+				</NavLink>
 			</div>
 		</header>
 	);
