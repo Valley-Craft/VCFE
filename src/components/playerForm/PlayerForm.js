@@ -38,7 +38,7 @@ const PlayerForm = () => {
         }
 
         try {
-            const response = await axios.post('http://api.valleycraft.fun/api/v1/form', data)
+            const response = await axios.post('https://vcbe-production.up.railway.app/api/v1/form', data)
             console.log(response.data)
         } catch (error) {
             console.error(error)
