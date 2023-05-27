@@ -1,6 +1,7 @@
 import "./styles/main.css";
 
 import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
+import { ToastContainer } from 'react-toastify';
 
 import Navbar from "./components/navbar/Navbar"
 import Footer from "./components/footer/Footer";
@@ -18,6 +19,7 @@ function App() {
 			<Router>
 				<ScrollToTop />
 				<Navbar />
+				<ToastContainer />
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/form" element={<Form />} />

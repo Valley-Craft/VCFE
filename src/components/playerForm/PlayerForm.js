@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-// import axios from "axios";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './style.css'
 import axios from "axios";
 
@@ -29,19 +30,26 @@ const PlayerForm = () => {
     }
 
     const sendForm = async () => {
-        const data = {
-            nickname: inputNick,
-            name: inputName,
-            age: inputAge,
-            wwd: inputWWD,
-            rules: inputRules
-        }
+        console.log(inputNick.length)
+        if (`${inputRules}` === '123' && inputNick.length <= 16) {
+            toast.success('Вас було додано до серверу');
 
-        try {
-            const response = await axios.post('https://vcbe-production.up.railway.app/api/v1/form', data)
-            console.log(response.data)
-        } catch (error) {
-            console.error(error)
+            const data = {
+                nickname: inputNick,
+                name: inputName,
+                age: inputAge,
+                wwd: inputWWD,
+                rules: inputRules
+            }
+
+            try {
+                const response = await axios.post('https://vcbe-production.up.railway.app/api/v1/form', data)
+                console.log(response.data)
+            } catch (error) {
+                console.error(error)
+            }
+        } else {
+            toast.error('Упс... Можливо потрібно прочитати правила?');
         }
     }
 
@@ -74,7 +82,7 @@ const PlayerForm = () => {
                 </div>
                 <div style={{marginTop: '40px', position: 'relative'}}>
                     <label>
-                        <input type="text" className="input_main" value={inputRules} onChange={handleRulesChange}
+                        <input type="number" className="input_main" value={inputRules} onChange={handleRulesChange}
                                placeholder="Чи прочитали ви правила?" required/>
                     </label>
                 </div>
