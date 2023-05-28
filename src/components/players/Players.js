@@ -23,7 +23,7 @@ const Players = () => {
             .catch((error) => console.log(error));
     }, []);
 
-    if (players.length === 0) {
+    if (players === null) {
         return null
     }
 
