@@ -12,7 +12,7 @@ const Header = () => {
 					<br />Ванільний сервер Minecraft
 				</h1>
 				<div className="header__text">
-					<p>Без приватів. Без грифу. Без доната</p>
+					<p>mc.valleycraft.fun</p>
 				</div>
 				<NavLink to="/form" className="btn">
 					Грати
