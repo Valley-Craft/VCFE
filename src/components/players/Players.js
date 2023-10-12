@@ -16,7 +16,7 @@ const Players = () => {
     };
 
     useEffect(() => {
-        const apiUrl = 'https://vcbe-production.up.railway.app/api/v1/players';
+        const apiUrl = 'https://vcbe-sy7wok3n.b4a.run/api/v1/players';
         axios
             .get(apiUrl)
             .then((response) => setPlayers(response.data))
