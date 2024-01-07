@@ -9,7 +9,7 @@ const Header = () => {
 					<strong>
 						<em>Valley Craft</em>
 					</strong>
-					<br />Ванільний сервер Minecraft
+					<br />Ванільний сервер Minecraft 1.20.1
 				</h1>
 				<div className="header__text">
 					<p>mc.valleycraft.fun</p>
